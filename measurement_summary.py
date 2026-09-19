@@ -15,7 +15,7 @@ for measurement in measurements:
     else:
         label = "within range"
 
-    print("Measurement:", measurement, "Status:", label)
+    print("Measurement:", measurement, label)
 
 mean = total / len(measurements)
 
