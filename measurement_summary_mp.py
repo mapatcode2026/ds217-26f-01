@@ -19,7 +19,6 @@ for measurement in measurements:
 
 mean = total / len(measurements)
 
-print("Count:", len(measurements))
 print("Total:", total)
 print("Mean:", mean)
 print("Review count:", review_count)

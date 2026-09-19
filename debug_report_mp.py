@@ -3,8 +3,8 @@ participant_count = int(participant_count_text)
 
 if participant_count >= 4:
     print("Readiness: complete")
-
-print("Participant count:", participant_count)
+else:
+    print("Participant count:", participant_count)
 
 next_checkpoint = int(participant_count_text) + 1
 
